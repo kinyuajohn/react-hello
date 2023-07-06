@@ -1,13 +1,14 @@
-import './App.css'
-import Hello from './components/hello'
+import "./App.css";
+import Hello from "./components/hello";
+import LikeButton from "./components/LikeButton";
 
 function App() {
   return (
     <>
-      <h1>Hello,</h1>
-      <Hello name="John"/>
+      <Hello name="World" />
+      <LikeButton />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
