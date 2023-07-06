@@ -28,7 +28,7 @@ const LikeButton = () => {
           </React.Fragment>
         )}
       </button>
-      <span>{count} Likes</span>
+      <span> {count} Likes</span>
     </div>
   );
 };
